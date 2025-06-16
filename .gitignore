@@ -10,3 +10,6 @@ cloudinary_python.txt
 kaggle.json
 .venv/
 venv/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
