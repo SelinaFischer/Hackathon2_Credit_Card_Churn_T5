@@ -144,7 +144,7 @@ Quartiles (25%- 50%- 75%): Split your data into four equal parts, like slicing a
 Skewness: It tells us if the data is symmetrical. This is important because if your data is skewed, it might affect decisions based on the mean (average). Sometimes, the mean does not reflect the reality of the dataset due to extreme values, and we might need to use different transformations to fix the issue.
 Kurtosis: It tells us about the "tailedness" or extreme outliers. It helps us spot the risk of rare, extreme events, which might be important for things like fraud detection, financial risk, or customer churn.
 
-![Skewness visual](Skewness graph.png)
+![Skewness visual](image-15.png)
 ---
 
 ## 7. Project Plan
@@ -541,7 +541,7 @@ The third dashboard supports the analysis of Hypothesis 10, providing the distri
 
 ### Tableau Dashboard – Hypotheses H1–H3 & H11
 
-🔗 [Tableau Dashboard](https://public.tableau.com/authoring/CreditCardChurnHackathon/Sheet3#1)
+[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/natalie.waugh/viz/CreditCardChurnHackathon/Sheet3)
 
 ---
 
