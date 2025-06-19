@@ -50,7 +50,6 @@ This project supports stakeholder decision-making with clear, data-driven insigh
 - Deliver interactive dashboards for stakeholder review and exploration of churn drivers
 - Recommend strategic interventions to improve long-term customer value (CLV) across business functions
 
-
 ---
 
 ## 5. Hypotheses and Validation Framework
@@ -68,7 +67,7 @@ Eleven hypotheses were defined and explored using descriptive statistics, with v
 | **H5:** Newer customers are more likely to churn | Are we losing customers right after onboarding? | Highlights importance of early engagement campaigns |
 
 <br>
----
+
 
 ### Exploratory Hypotheses (H6–H10) – Demographic & Cross-Segment:
 
@@ -81,7 +80,7 @@ Eleven hypotheses were defined and explored using descriptive statistics, with v
 | **H10:** Low-income + high utilisation → Lower churn | Are financially stretched but engaged users more loyal? | Helps refine credit risk strategy vs. churn risk |
 
 <br>
----
+
 
 ### Core Hypothesis (H11) – Behavioural & Predictive:
 
@@ -118,7 +117,7 @@ Eleven hypotheses were defined and explored using descriptive statistics, with v
 - Loaded with slicers and filters for interactive visualisation
 
 <br>
----
+
 
 ## Explanation of Derived Variables
 
@@ -153,7 +152,7 @@ This report includes standard descriptive statistics, skewness, and kurtosis for
 ![Skewness visual](image-15.png)
 
 <br>
----
+
 
 ## 7. Project Plan
 
@@ -174,7 +173,7 @@ A structured data analysis workflow ensured traceability from business objective
 - Power BI and Tableau (Interactive Visualisation)
 
 <br>
----
+
 
 ## 8. Hypothesis Testing Summary and Statistical Validation
 
@@ -205,7 +204,7 @@ This report summarises the findings of 11 hypotheses tested using customer behav
 | H11: A customer’s total transaction amount is a predictor of their likelihood to churn. Lower transaction amounts are directly correlated with a higher probability of churning. | Yes        | Used a machine learning model (Naive Bayes Classifier), that includes the total transaction amount as one of the input features. | The model predicted higher churn probabilities for customers with lower total transaction amounts. The table shows a lower value for churned customers. |
 
 <br>
----
+
 
 ## 8.1 Hypothesis Testing with Statistical Evidence and Visual Insights
 
@@ -345,6 +344,7 @@ Consider reviewing Blue tier benefit structures to boost loyalty or create upgra
 
 ---
 <br>
+
 ### H6: Customers with lower income are more likely to churn
 
 - **Validation Status:** Hypothesis Not Supported
@@ -378,6 +378,7 @@ Therefore, while a weak association exists, income is not a strong standalone pr
 ---
 
 <br>
+
 ### H7: Unmarried customers are more likely to churn
 
 - **Validation Status:** Hypothesis Not Conclusive
@@ -430,6 +431,7 @@ Consider simplifying content or offering guided experiences for lower-education 
 ![H8 Visual](image-10.png)
 ---
 <br>
+
 ### H9: Younger customers with Blue cards churn at higher rates than older premium customers
 
 - **Validation Status:** Further analysis required (as inconsistency observed between the visual and statistical analysis)
@@ -465,6 +467,7 @@ This is a highly significant result, confirming a strong association between age
 
 ---
 <br>
+
 ### H10: Low-income, high-utilisation customers are less likely to churn
 
 - **Validation Status:** Further analysis required (as inconsistency observed between the visual and statistical analysis)
@@ -623,13 +626,12 @@ Used two-sample t-tests to compare means between churned and retained groups for
 
 - Synthesised insights into a set of recommendations for improving retention through segment-specific strategies.
 <br>
----
 
 ## 11. Unfixed Bugs
 
 - Not applicable. No unresolved bugs were encountered during this project.
 
----
+<br>
 
 ## 12. Development Roadmap
 
@@ -680,18 +682,17 @@ Used two-sample t-tests to compare means between churned and retained groups for
 - Strengthen our ability to interpret and explain statistical test results, p-values, and assumptions behind each test.  
 - Apply this to support evidence-based decision-making in future analytical projects.
 <br>
----
+
 
 
 ## 13. Findings and Recommendations
 
-### **Issue 1: Dataset Sample Size is Small **
+### **Issue 1: Dataset Sample Size is Small** 
 - Certain customer segments, such as Platinum cardholders, show significantly higher churn rates.  
 - However, the sample size in these segments is too small to support statistically reliable conclusions.  
 - Many customers have low or no card utilisation, which correlates with higher churn.  
 - **Business Impact**: Missed revenue opportunities due to disengaged customers and unreliable segment insights.
 
----
 
 ### **Issue 2: Low Spending Is Linked to High Predicted Churn**
 
@@ -701,11 +702,10 @@ Used two-sample t-tests to compare means between churned and retained groups for
 - Higher-spending cardholders (Gold and Platinum) are more concentrated in the low-churn group.  
 - **Business Insight**: Low spending is a strong early indicator of disengagement and future churn, especially among mass-market Blue cardholders.
 
----
 
-## Recommendations: 
+### **Recommendations:** 
 
-**How might we increase customer spending and deepen engagement across card segments?**
+#### **How might we increase customer spending and deepen engagement across card segments?**
 
 To reduce churn and improve revenue, we recommend a targeted engagement strategy aimed at increasing card activity, particularly among low-spending cohorts:
 
@@ -723,7 +723,7 @@ To reduce churn and improve revenue, we recommend a targeted engagement strategy
   - Use gamification to turn spending into a rewarding, engaging experience and increase customer lifetime value (CLV).
 
 <br>
----
+
 
 ## 14. Ethical Considerations
 
@@ -731,14 +731,14 @@ To reduce churn and improve revenue, we recommend a targeted engagement strategy
 - All fields are anonymised or aggregated (e.g. income bands, education level)
 - No legal or ethical risks encountered — the dataset is open source and for educational purposes
 <br>
----
+
 
 ## 15. Deployment
 
 - The project was not deployed as a web application.
 - All dashboards (Power BI, Tableau) and Jupyter Notebook files are available in the GitHub repository.
 <br>
----
+
 
 ## 16. Main Data Analysis Libraries
 
@@ -766,7 +766,7 @@ Data cleaning and analysis were performed in Jupyter Notebook using Python, foll
 
 ### Version control was handled using: **GitHub**
 <br>
----
+
 
 ## 17. Reflections
 
@@ -780,7 +780,7 @@ This project was a collaborative effort by a team of four, completed within thre
   - Application of technical skills in a real-world analytics context
   - The project fostered growth in not only data analytics, but also teamwork, decision-making, and time management.
 <br>
----
+
 
 ## 18. Credits
 
@@ -795,7 +795,6 @@ This project was a collaborative effort by a team of four, completed within thre
   - ChatGPT & GitHub Copilot for guidance and optimisation
 - **Team Support:** Tutors and peers
 <br>
----
 
 
 ## 19. Acknowledgements
@@ -806,5 +805,5 @@ Special thanks to:
 - Everyone who contributed advice, testing help, and learning resources
 
 
-
+[🔝 Back to Top](#top)
 
