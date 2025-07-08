@@ -565,7 +565,7 @@ The third dashboard supports the analysis of Hypothesis 10, providing the distri
 
 ### Tableau Dashboard – Hypotheses H1–H3 & H11
 
-[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/natalie.waugh/viz/CreditCardChurnHackathon/Sheet3)
+[View Dashboard on Tableau Public](https://public.tableau.com/app/profile/natalie.waugh/viz/CreditCardChurnHackathon/Dashboard1)
 
 ---
 <br>
