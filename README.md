@@ -1,5 +1,11 @@
-![alt text](image.png)
+![project cover](image.png)
 
+
+## Nevigation
+
+* [README](https://github.com/SelinaFischer/Hackathon2_Credit_Card_Churn_T5/blob/main/README.md)
+
+* [ETL Process & Hypothesis Testing](https://github.com/SelinaFischer/Hackathon2_Credit_Card_Churn_T5/blob/main/jupyter_notebooks/etl_process_%20hypotheses_tests.ipynb)
 
 
 
