@@ -7,6 +7,9 @@
 
 * [ETL Process & Hypothesis Testing](https://github.com/SelinaFischer/Hackathon2_Credit_Card_Churn_T5/blob/main/jupyter_notebooks/etl_process_%20hypotheses_tests.ipynb)
 
+* [Project Board](https://github.com/users/SelinaFischer/projects/9)
+
+<br>
 
 
 ## 1. Problem Statement
